@@ -3,10 +3,10 @@ This is a training project to create my own version of Git. I follow this guide 
 
 ## To-Do
 - [x] Impliment repo initialization
-- [ ] Add repo_find to identify the repo root
-- [ ] Read/Write objects
-- [ ] Impliment cat-file
-- [ ] Impliment hash-object
+- [x] Add repo_find to identify the repo root
+- [x] Read/Write objects
+- [x] Impliment cat-file
+- [x] Impliment hash-object
 - [ ] Read commit history
 - [ ] Read commit data
 - [ ] Add references (tags, branches)
