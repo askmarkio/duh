@@ -18,4 +18,4 @@ This is a training project to create my own version of Git. I follow this guide 
 - [ ] Add the rm, add, commit commands
 
 ### Resources
-* https://wyag.thb.lt/#cmd-init
+* https://wyag.thb.lt
