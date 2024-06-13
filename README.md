@@ -1,5 +1,17 @@
-# Write yourself a Git (wyag)
-This is a training project to create my own version of Git. I follow this guide to implement basic commands from Git into my own version.Hopefully, as I continue to learn programming, I can implement something new. Who knows.
+# Duh!
+
+> GIT - the stupid content tracker
+
+[Source](https://github.com/git/git/blob/e83c5163316f89bfbde7d9ab23ca2e25604af290/README)
+
+This is a training project to create my own version of Git that I, with inspiration, have named "Duh." 
+
+I am following a guide to implement basic commands from Git into my own version during my journey on learning how to program. Over time, I will add more things and experiment.
+
+#### Available commands:
+'init' - Usage: 'duh init' will initialize the existing folder that you are in. 'duh init repo' will create the 'repo' folder and initialize it.
+
+---
 
 ## To-Do
 - [x] Impliment repo initialization
