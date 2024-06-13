@@ -199,8 +199,10 @@ class GitObject (object):
         pass # Just do nothing. This is a reasonable default!
 
 def object_read(repo, sha):
-    """Read object sha from Git repository repo. Return a 
-    GitObhect whose exavt type depends on the object.""""
+    """
+    Read object sha from Git repository repo. Return a 
+    GitObhect whose exavt type depends on the object.
+    """
 
     path = repo_find(repo, "objects", sha[0:2], sha[2:])
 
@@ -292,9 +294,9 @@ argsp.add_argument("-t",
                    dest="type",
                    choices=["blob", "commit", "tag", "tree"],
                    default="blob",
-                   help="Specifythe type")
+                   help="Specify the type")
 
-argsp,add_argument("-w",
+argsp.add_argument("-w",
                    dest="write",
                    action="store_true",
                    help="Actually write the object into the database")
